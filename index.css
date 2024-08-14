@@ -1,0 +1,28 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)),  url('images/bg.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+
+.card-img{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 400px; /* Fixed height */
+    overflow: hidden; /* Hide overflow if image is larger than the container */
+}
+
+.card-img img{
+    width: auto; /* Maintain aspect ratio */
+    height: 100%; /* Ensure image covers the height of the container */
+    object-fit: cover; /* Ensure the image covers the container without distortion */
+}
+
+.card-body {
+    /* height: 100%; */
+}
+
